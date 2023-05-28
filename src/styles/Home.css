@@ -5,6 +5,8 @@
     position: relative;
     top: 0;
     left: 0;
+
+    padding: 0 50px;
 }
 
 .welcome {
@@ -127,6 +129,7 @@
     max-width: 70rem;
     margin: 65px auto;
 
+
     display: flex;
     align-items: center;
 
@@ -140,6 +143,16 @@
 
 .stacks {
     display: flex;
+
+    margin-left: 50px;
+}
+.first-stacks {
+    display: flex;
+    gap: 40px;
+    margin-left: 50px;
+}
+.second-stacks {
+    display: flex;
     gap: 40px;
     margin-left: 50px;
 }
@@ -147,4 +160,40 @@
 .stack {
     width: 40px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1145px) {
+    .Home {
+        height: 130vh;
+    }
+    .welcome {
+        padding-top: 170px;
+        flex-direction: column-reverse;
+    }
+    .greeting {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .btn-and-socials {
+        justify-content: center;
+    }
+    .tech-stack {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .tech-stack p {
+        margin-bottom: 35px;
+    }
+
+    .stacks {
+        margin: 0;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .first-stacks {
+        margin: 0;
+    }
+    .second-stacks {
+        margin: 0;
+    }
 }

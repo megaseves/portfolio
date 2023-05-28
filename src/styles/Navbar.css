@@ -23,6 +23,7 @@
 .Navbar ul {
     display: flex;
     gap: 30px;
+    justify-content: center;
 }
 
 .Navbar li {
