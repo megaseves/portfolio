@@ -20,7 +20,10 @@ function Home() {
 
                 </div>
                 <div className="hero">
-                    <img src="myFace.jpg" alt="hero" className={"hero-img"}/>
+                    <div className="myFace">
+
+                    </div>
+                    {/*<img src="myFace.jpg" alt="hero" className={"hero-img"}/>*/}
                 </div>
             </div>
             <div className="tech-stack">

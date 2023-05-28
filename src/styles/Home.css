@@ -1,6 +1,6 @@
 .Home {
     width: 100%;
-    margin-top: 140px;
+    margin-top: 12vh;
 }
 
 .welcome {
@@ -32,6 +32,34 @@
 .hero-img {
     width: 450px;
 }
+
+.myFace {
+    background: url("https://schmiedtattiladev.s3.eu-north-1.amazonaws.com/myFace.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: left center;
+    height: 400px;
+    width: 400px;
+
+    box-shadow: 0 16px 5px 5px rgba(0,0,0,0.09);
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+
+    opacity: 0.9;
+}
+
+@keyframes animate {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
 
 .greeting-socials {
 
