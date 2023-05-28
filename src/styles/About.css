@@ -4,8 +4,6 @@
 
     background-color: white;
 
-    position: relative;
-
 }
 
 .about-content {
@@ -39,4 +37,23 @@
     margin-top: 19px;
     color: var(--secColor);
     font-size: 17px;
+}
+
+@media screen and (max-width: 1145px) {
+    .About {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .about-content {
+
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-side {
+        text-align: center;
+        padding: 0 180px;
+    }
 }

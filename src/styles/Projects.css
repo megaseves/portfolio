@@ -98,3 +98,24 @@
 .project-type {
     margin-top: 20px;
 }
+
+@media screen and (max-width: 1145px) {
+    .Projects {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .project-card {
+        flex-direction: column;
+        width: 670px;
+    }
+    .img-card {
+        display: flex;
+        justify-content: center;
+    }
+    .project-card-left {
+        flex-direction: column-reverse;
+    }
+}
+
+

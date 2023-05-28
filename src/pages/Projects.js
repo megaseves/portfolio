@@ -34,7 +34,7 @@ function Projects() {
                    </div>
 
 
-                   <div className="project-card">
+                   <div className="project-card project-card-left">
                        <div className="text-card text-card-left">
                            <h3>Piktor Fiai Bt. 🏗️</h3>
                            <p>I made this website for my friend. They also undertake parquet flooring, room painting and the construction of garden wooden houses in Hungary.</p>
