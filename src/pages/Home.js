@@ -4,7 +4,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 function Home() {
     return (
-        <div className="Home">
+        <div className="Home" id={"home"}>
 
             <div className="welcome">
                 <div className="greeting">

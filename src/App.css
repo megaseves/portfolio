@@ -28,4 +28,5 @@ p {
 :root {
   --mainColor: #39393d;
   --secColor: #656565;
+  --title: red;
 }
