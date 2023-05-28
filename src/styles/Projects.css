@@ -5,6 +5,9 @@
 
 .projects {
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
 
 .projects-content {
@@ -56,6 +59,10 @@
     gap: 24px;
 
     margin-left: 25px;
+}
+.text-card-left {
+    margin-left: 0;
+    margin-right: 25px;
 }
 
 .text-card p {
