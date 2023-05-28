@@ -31,11 +31,6 @@
 
 }
 
-.text-side h4 {
-    margin-top: 4px;
-    color: var(--title);
-    font-size: 18px;
-}
 .text-side h3 {
     color: var(--mainColor);
     font-size: 25px;

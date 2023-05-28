@@ -29,4 +29,12 @@ p {
   --mainColor: #39393d;
   --secColor: #656565;
   --title: red;
+  --bgColor: white;
+}
+
+
+.component-title {
+  margin-top: 4px;
+  color: var(--title);
+  font-size: 18px;
 }

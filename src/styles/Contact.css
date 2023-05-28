@@ -1,0 +1,19 @@
+.Contact {
+    width: 100%;
+
+
+    background-color: white;
+
+    position: relative;
+
+}
+
+.contact-content {
+    display: flex;
+    max-width: 70rem;
+
+    margin: 0 auto;
+
+    padding: 140px 0;
+
+}

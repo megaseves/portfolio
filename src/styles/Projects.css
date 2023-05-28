@@ -1,6 +1,6 @@
 .Projects {
     width: 100%;
-
+    padding: 150px 0;
 }
 
 .projects {
@@ -15,16 +15,11 @@
     flex-direction: column;
     max-width: 70rem;
 
-    margin: 150px auto;
+    margin: 0 auto;
 
 
 
     /*border: 1px solid red;*/
-}
-
-.projects-header h4 {
-    color: var(--title);
-    font-size: 18px;
 }
 
 
@@ -41,11 +36,13 @@
 }
 
 .img-card img {
-    width: 600px;
+
     height: 370px;
 
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+
+    cursor: pointer;
 }
 
 
@@ -66,7 +63,7 @@
 }
 
 .text-card p {
-    font-size: 20px;
+    font-size: 19px;
 }
 
 
@@ -90,9 +87,14 @@
     display: flex;
     gap: 60px;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 32px;
 }
 
 .card-links a {
     font-size: 22px;
+}
+
+
+.project-type {
+    margin-top: 20px;
 }

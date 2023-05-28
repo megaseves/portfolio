@@ -8,7 +8,7 @@ function About() {
                     <img src="../developing.jpg" alt="developing"/>
                 </div>
                 <div className="text-side">
-                    <h4>ABOUT ME</h4>
+                    <h4 className={"component-title"}>ABOUT ME</h4>
                     <h3>I'm a Full-Stack Software Developer, seeking an entry-level opportunity in Fullstack JavaScript, React Development.</h3>
                     <p>I like to work in CSS, I have experience in it. I've
                         been using photoshop for a long time. I like
