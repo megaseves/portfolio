@@ -65,7 +65,7 @@ function Projects() {
                             </div>
                             <div className="card-links">
                                 <a href={"https://github.com/megaseves/restaurant-react"} target={"_blank"} rel="noreferrer" className="project-code">Code <FontAwesomeIcon icon="fa-brands fa-github" /></a>
-                                <a href={"https://github.com/megaseves/restaurant-react"} target={"_blank"} rel="noreferrer" className="project-code">Live Demo <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" /></a>
+                                <a href={"https://fastfooddemodev.web.app/"} target={"_blank"} rel="noreferrer" className="project-code">Live Demo <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" /></a>
                             </div>
                         </div>
                     </div>
@@ -87,7 +87,7 @@ function Projects() {
                            </div>
                            <div className="card-links">
                                <a href={"https://github.com/megaseves/socialSite-NodeJS-ReactJS"} target={"_blank"} rel="noreferrer" className="project-code">Code <FontAwesomeIcon icon="fa-brands fa-github" /></a>
-                               <a href={"https://github.com/megaseves/socialSite-NodeJS-ReactJS"} target={"_blank"} rel="noreferrer" className="project-code">Live Demo <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" /></a>
+                               <a href={"https://github.com/megaseves/socialSite-NodeJS-ReactJS"} target={"_blank"} rel="noreferrer" className="project-code">Coming soon <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" /></a>
                            </div>
                        </div>
                    </div>
