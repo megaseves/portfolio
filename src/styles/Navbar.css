@@ -29,3 +29,50 @@
 .Navbar li {
     list-style: none;
 }
+.navbar-menu-btn {
+    display: none;
+}
+.mobile-nav {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border: 1px solid red;
+    z-index: 100;
+}
+.mobile-nav-menu {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    justify-content: center;
+    align-items: center;
+}
+.mobile-nav-menu a {
+    font-size: 30px;
+    font-weight: normal;
+}
+.mobile-nav-header {
+    position: absolute;
+    top: 26px;
+    right: 50px;
+}
+.closed-menu {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .Navbar ul {
+        display: none;
+    }
+    .navbar-menu-btn {
+        display: block;
+        font-size: 24px;
+    }
+
+}
