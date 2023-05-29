@@ -2,7 +2,8 @@
 
 
 ## Link to the website
-You can check live demo [here](https://schmiedtattiladev.web.app/).
+You can check live demo [here](https://schmiedtattiladev.web.app/). 
+(https://schmiedtattiladev.web.app/)
 
 
 ## Gallery
