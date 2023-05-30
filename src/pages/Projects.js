@@ -28,7 +28,7 @@ function Projects() {
                            </div>
                            <div className="card-links">
                                <a href={"https://github.com/megaseves/red-pumpkin-reactjs"} target={"_blank"} rel="noreferrer" className="project-code">Code <FontAwesomeIcon icon="fa-brands fa-github" /></a>
-                               <a href={"https://github.com/megaseves/red-pumpkin-reactjs"} target={"_blank"} rel="noreferrer" className="project-code">Live Demo <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" /></a>
+                               <a href={"https://redpumpkin.hu/"} target={"_blank"} rel="noreferrer" className="project-code">Website <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" /></a>
                            </div>
                        </div>
                    </div>
