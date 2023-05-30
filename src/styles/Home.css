@@ -161,6 +161,15 @@
     width: 40px;
     cursor: pointer;
 }
+.mobile-stack-view-first {
+    display: flex;
+    gap: 40px;
+}
+.mobile-stack-view-second {
+    display: flex;
+    gap: 40px;
+}
+
 
 @media screen and (max-width: 1145px) {
     .Home {
@@ -195,5 +204,29 @@
     }
     .second-stacks {
         margin: 0;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .Home {
+        height: 130vh;
+    }
+    .myFace {
+        width: 300px;
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .Home {
+        height: 100%;
+    }
+    .first-stacks {
+        flex-direction: column;
+    }
+    .second-stacks {
+        flex-direction: column;
     }
 }

@@ -71,8 +71,10 @@ function Projects() {
                     </div>
 
 
+                   <div className="projects-header">
+                       <h2 className={"project-type"}>Full-Stack Projects</h2>
+                   </div>
 
-                   <h2 className={"project-type"}>Full-Stack Projects</h2>
 
                    <div className="project-card">
                        <div className="img-card">
