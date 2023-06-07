@@ -42,7 +42,7 @@
 }
 
 .myFace {
-    background: url("https://schmiedtattiladev.s3.eu-north-1.amazonaws.com/myFace.jpg");
+    background: url("https://schmiedtattiladev.s3.eu-north-1.amazonaws.com/newProfilePic.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     background-position: left center;
@@ -144,7 +144,7 @@
 .stacks {
     display: flex;
 
-    margin-left: 50px;
+
 }
 .first-stacks {
     display: flex;

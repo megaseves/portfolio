@@ -16,7 +16,7 @@ function Projects() {
 
                    <div className="project-card">
                        <div className="img-card">
-                           <img src="../project_pictures/audioPlayerDemo.jpg" alt="developing"/>
+                           <a href={"https://redpumpkin.hu/"} target={"_blank"} rel="noreferrer"><img src="../project_pictures/audioPlayerDemo.jpg" alt="developing"/></a>
                        </div>
                        <div className="text-card">
                            <h3>Audio Player 🎧</h3>
@@ -48,13 +48,13 @@ function Projects() {
                            </div>
                        </div>
                        <div className="img-card">
-                           <img src="../project_pictures/piktorfiaiDemo.jpg" alt="developing"/>
+                           <a href={"https://piktorfiai.hu/"} target={"_blank"} rel="noreferrer"><img src="../project_pictures/piktorfiaiDemo.jpg" alt="developing"/></a>
                        </div>
                    </div>
 
                     <div className="project-card">
                         <div className="img-card">
-                            <img src="../project_pictures/fastFoodDemo.jpg" alt="developing"/>
+                            <a href={"https://fastfooddemodev.web.app/"} target={"_blank"} rel="noreferrer"><img src="../project_pictures/fastFoodDemo.jpg" alt="developing"/></a>
                         </div>
                         <div className="text-card">
                             <h3>Fast Food 🍔</h3>

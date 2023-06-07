@@ -134,6 +134,9 @@
     .text-card {
         margin: 0;
     }
+    .card-links a {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 400px) {
