@@ -60,3 +60,21 @@
 
     cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+    
+    .email-form {
+
+        max-width: 400px;
+    
+    }
+}
+
+@media screen and (max-width: 400px) {
+    
+    .email-form {
+
+        max-width: 260px;
+    
+    }
+}

@@ -18,8 +18,13 @@
     padding: 80px 50px 100px 50px;
 }
 
+.contact-content h3 {
+    text-align: center;
+}
+
 .infos {
     display: flex;
+    justify-content: center;
     gap: 100px;
 
     margin-top: 50px;
