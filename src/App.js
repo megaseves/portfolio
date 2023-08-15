@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import EmailSender from './components/EmailSender';
 
 library.add(faLinkedin, faGithub, faArrowUpRightFromSquare, faMapLocationDot, faEnvelopeOpenText, faBars, faX);
 
@@ -20,6 +21,7 @@ function App() {
         <About />
         <Projects />
         <Contact />
+        <EmailSender />
         <Footer />
     </div>
   );

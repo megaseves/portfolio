@@ -1,0 +1,62 @@
+.email-form-container {
+    width: 100%;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 60px;
+}
+
+.email-form {
+
+    width: 600px;
+
+    display: flex;
+    flex-direction: column;
+    color: var(--secColor);
+}
+
+.form-input {
+    height: 50px;
+    padding: 25px 10px;
+    border-radius: 10px;
+    border: 1px solid var(--inputBorderColor);
+
+    font-size: 18px;
+}
+
+.form-input:focus {
+    outline: 1px solid red;
+    border: 1px solid red;
+}
+
+.email-form textarea {
+    min-height: 220px;
+    max-width: 600px;
+    margin-bottom: 30px;
+
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--inputBorderColor);
+
+    font-size: 18px;
+}
+
+.email-form textarea:focus {
+    outline: 1px solid red;
+    border: 1px solid red;
+}
+
+.send-btn {
+    height: 70px;
+    padding: 0;
+    font-size: 18px;
+
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: red;
+    color: white;
+
+    cursor: pointer;
+}
