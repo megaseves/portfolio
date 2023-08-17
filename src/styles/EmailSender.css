@@ -130,6 +130,13 @@
 
 
 
+@media screen and (max-width: 1000px) {
+    
+    .popup {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     
     .email-form {
@@ -137,6 +144,26 @@
         max-width: 400px;
     
     }
+    .error-message-form {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .popup img {
+        width: 180px;
+    }
+    
+    .popup h3 {
+        font-size: 20px;
+    }
+    
+    .popup p {
+        font-size: 17px;
+        padding: 40px;
+    }
+    
 }
 
 @media screen and (max-width: 400px) {
